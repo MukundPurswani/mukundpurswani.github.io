@@ -1,0 +1,22 @@
+.navbar a {
+    color: #fff;
+    padding: 7px 10px;
+}
+
+.navbar a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.main-section {
+    min-height: 1000px;
+}
+
+a.btn.btn-post {
+    padding: 7px 10px;
+}
+
+a.btn.btn-post:hover  {
+    background-color: #fff;
+    color: #333;
+}
