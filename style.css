@@ -1,6 +1,6 @@
 .navbar a {
     color: #fff;
-    padding: 7px 10px;
+    padding: 7px 15px;
 }
 
 .navbar a:hover {
@@ -13,10 +13,43 @@
 }
 
 a.btn.btn-post {
-    padding: 7px 10px;
+    padding: 10px 10px;
 }
 
 a.btn.btn-post:hover  {
+    transition: all .3s;
     background-color: #fff;
     color: #333;
+}
+
+.absolute-child {
+    background-color: rgba(1,1,1,.5);
+}
+
+.absolute-child-with-name {
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    
+    /* transform: scaleY(50); */
+    /* scale: calc(5); */
+}
+
+.img-thumbnail {
+    border: none;
+}
+
+.absolute-child-paragraph {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    /* background-color: rgba(1,1,1,.5); */
+    color: #fff;
+}
+
+.container-info {
+    width: 50%;
+    margin: 0 auto;
 }
