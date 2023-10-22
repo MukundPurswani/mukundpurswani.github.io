@@ -1,0 +1,533 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+body {
+  font-family: monospace;
+}
+/* Helper classes */
+
+.p-0 {
+  padding: 0;
+}
+.p-5 {
+  padding: 5px;
+}
+.p-10 {
+  padding: 10px;
+}
+.p-15 {
+  padding: 15px;
+}
+.p-20 {
+  padding: 20px;
+}
+.p-25 {
+  padding: 25px;
+}
+.p-30 {
+  padding: 30px;
+}
+.p-35 {
+  padding: 35px;
+}
+.p-40 {
+  padding: 40px;
+}
+
+.pt-0 {
+  padding-top: 0;
+}
+.pt-5 {
+  padding-top: 5px;
+}
+.pt-10 {
+  padding-top: 10px;
+}
+.pt-15 {
+  padding-top: 15px;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+.pt-25 {
+  padding-top: 25px;
+}
+.pt-30 {
+  padding-top: 30px;
+}
+.pt-35 {
+  padding-top: 35px;
+}
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pr-0 {
+  padding-right: 0;
+}
+.pr-5 {
+  padding-right: 5px;
+}
+.pr-10 {
+  padding-right: 10px;
+}
+.pr-15 {
+  padding-right: 15px;
+}
+.pr-20 {
+  padding-right: 20px;
+}
+.pr-25 {
+  padding-right: 25px;
+}
+.pr-30 {
+  padding-right: 30px;
+}
+.pr-35 {
+  padding-right: 35px;
+}
+.pr-40 {
+  padding-right: 40px;
+}
+
+.pb-0 {
+  padding-bottom: 0;
+}
+.pb-5 {
+  padding-bottom: 5px;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+.pb-15 {
+  padding-bottom: 15px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+.pb-25 {
+  padding-bottom: 25px;
+}
+.pb-30 {
+  padding-bottom: 30px;
+}
+.pb-35 {
+  padding-bottom: 35px;
+}
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+.pl-5 {
+  padding-left: 5px;
+}
+.pl-10 {
+  padding-left: 10px;
+}
+.pl-15 {
+  padding-left: 15px;
+}
+.pl-20 {
+  padding-left: 20px;
+}
+.pl-25 {
+  padding-left: 25px;
+}
+.pl-30 {
+  padding-left: 30px;
+}
+.pl-35 {
+  padding-left: 35px;
+}
+.pl-40 {
+  padding-left: 40px;
+}
+
+.m-0 {
+  margin: 0;
+}
+.m-5 {
+  margin: 5px;
+}
+.m-10 {
+  margin: 10px;
+}
+.m-15 {
+  margin: 15px;
+}
+.m-20 {
+  margin: 20px;
+}
+.m-25 {
+  margin: 25px;
+}
+.m-30 {
+  margin: 30px;
+}
+.m-35 {
+  margin: 35px;
+}
+.m-40 {
+  margin: 40px;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-25 {
+  margin-top: 25px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-35 {
+  margin-top: 35px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mr-0 {
+  margin-right: 0;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mr-15 {
+  margin-right: 15px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.mr-25 {
+  margin-right: 25px;
+}
+.mr-30 {
+  margin-right: 30px;
+}
+.mr-35 {
+  margin-right: 35px;
+}
+.mr-40 {
+  margin-right: 40px;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+.mb-5 {
+  margin-bottom: 5px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-25 {
+  margin-bottom: 25px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mb-35 {
+  margin-bottom: 35px;
+}
+.mb-40 {
+  margin-bottom: 40px;
+}
+.mb-80 {
+  margin-bottom: 80px;
+}
+
+.ml-0 {
+  margin-left: 0;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.ml-15 {
+  margin-left: 15px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+.ml-25 {
+  margin-left: 25px;
+}
+.ml-30 {
+  margin-left: 30px;
+}
+.ml-35 {
+  margin-left: 35px;
+}
+.ml-40 {
+  margin-left: 40px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.col {
+  float: left;
+}
+
+.col.col-12 {
+  width: 100%;
+}
+.col.col-11 {
+  width: 91.66%;
+}
+.col.col-10 {
+  width: 83.33%;
+}
+.col.col-9 {
+  width: 75%;
+}
+.col.col-8 {
+  width: 66.66%;
+}
+.col.col-7 {
+  width: 58.33%;
+}
+.col.col-6 {
+  width: 50%;
+}
+.col.col-5 {
+  width: 41.66%;
+}
+.col.col-4 {
+  width: 33.33%;
+}
+.col.col-3 {
+  width: 25%;
+}
+.col.col-2 {
+  width: 16.66%;
+}
+.col.col-1 {
+  width: 8.33%;
+}
+
+.section-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.section-light {
+  background-color: #fff;
+  color: #333;
+}
+
+.container-fluid {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+section.paragrapgh-title {
+  text-transform: uppercase;
+}
+
+img.band-member-image {
+  /* box-sizing: border-box; */
+  /* width: 50%; */
+  margin: 20px;
+}
+
+.person-card-box {
+  box-sizing: border-box;
+  /* width: 0%; */
+  padding: 50px;
+  margin: 20px;
+  height: 200px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav-section {
+  text-transform: capitalize;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+a.btn-primary:link,
+a.btn-primary:visited {
+  color: #333;
+}
+
+a.btn-primary:hover {
+  background-color: #888;
+}
+
+.nav-section {
+  border-bottom: solid 1px lightgray;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+.to-upcase {
+  text-transform: uppercase;
+}
+
+.to-lowercase {
+  text-transform: uppercase;
+}
+
+.to-cap {
+  text-transform: capitalize;
+}
+
+.highlighted-word {
+  background-color: rgba(0, 0, 0, 0.5);
+  /* color: rgba(0, 0, 0, 0.5); */
+  color: #bbb;
+}
+
+a.nav-links {
+  letter-spacing: 2px;
+}
+
+a.nav-links:visited,
+a.nav-links:link {
+  color: #333;
+}
+
+a.nav-links:hover {
+  background-color: #888;
+}
+
+.relative-parent {
+  position: relative;
+}
+
+.absolute-child {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+div.project-header {
+  border-bottom: solid 1px lightgrey;
+}
+
+/* img.card-image {
+      height: 250;
+      margin: 0;
+  } */
+
+.absolute-child-header-image {
+  top: 50%;
+}
+
+a.house-name {
+  background-color: #222;
+  color: #fff;
+}
+/* .row .absolute-child-house-card-heading {
+      top: 10%;
+  } */
+
+.btn {
+  background-color: #bbb;
+  color: #222;
+}
+
+a.btn.contact-btn {
+  background-color: #bbb;
+  /* width: 100%; */
+  /* padding: 100%; */
+}
+
+.btn.contact-btn:hover {
+  background-color: #888;
+}
+
+
+
+.no-gutter {
+  padding:0;
+}
