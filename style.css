@@ -53,3 +53,15 @@ a.btn.btn-post:hover  {
     width: 50%;
     margin: 0 auto;
 }
+
+/* img{
+    width:100%;
+} */
+
+
+.container-intro {
+    width:50%;
+    margin: 0 auto;
+    /* background-color: #333;
+    color: #fff; */
+}
