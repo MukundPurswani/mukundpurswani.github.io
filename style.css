@@ -47,6 +47,8 @@ a.btn.btn-post:hover  {
     left:50%;
     /* background-color: rgba(1,1,1,.5); */
     color: #fff;
+    text-shadow: red 1px 0 10px;
+    /* color: inherit; */
 }
 
 .container-info {
@@ -65,3 +67,71 @@ a.btn.btn-post:hover  {
     /* background-color: #333;
     color: #fff; */
 }
+
+.intro-div-with-info {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height:  1000px;
+  background-color: lightgrey;
+}
+
+span.name {
+    font-size: 30px;
+    color: #fff;
+}
+
+/* a.name:hover {
+    cursor: pointer;
+    color: #333;
+    transition: all .3s;
+} */
+p.name {
+    display:inline;
+}
+/* p.name {
+    cursor: pointer;
+    color: #333;
+    text-decoration: underline;
+    transition: all .5s;
+    content: "Mukund Purswani";
+} */
+
+.hidden {
+    display: none;
+    color: #333;
+}
+
+.show {
+    display: block;
+}
+p.name::before {
+    content: 'Mukund Purswani';
+}
+p.name:hover::before {
+    /* content: 'nothing escapes the lesnes'; */
+    transition: all .4s;
+    text-shadow: #333 -5px 5px 10px;
+}
+/* .social-link {
+    display: none;
+}
+p.name:hover::before .rounded-5 a.social-link {
+    display: block;
+    transition: all .5s;
+} */
+
+
+.preview {
+    background-color: lightgrey;
+    /* padding: 50px; */
+    min-height: 400px;
+    min-width: 100px;
+}
+
+a.btn.btn-choose {
+    padding: 5px 7px;
+    background-color: #333;
+    color: #fff;
+}
+

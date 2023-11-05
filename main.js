@@ -1,25 +1,17 @@
-const postBtn = document.querySelector('.btn-post').addEventListener('click', addComment);
-const commentField = document.querySelector('.comment-field');
-const commentSection = document.querySelector('.comment-section');
+const fileUploadBtn = document.querySelector('.upload-file').addEventListener('click', uploadFile);
 
-let commentArr =[];
-let output = "<ul>";
-loadComments();
-function addComment(evt) {
-    console.log(commentSection);
+// console.log(fileUploadBtn);
+
+async function uploadFile(evt) {
     evt.preventDefault();
-    console.log(commentField.value);
-    if(commentField.value != null) {
-        output+= `<li>${commentField.value}</li>`;
-        commentArr.push(commentField.value);
-    }
-    localStorage.setItem('comments',JSON.stringify(commentArr));
-    console.log(output);
-    output+="</ul>";
-    commentSection.innerHTML = output;
+    // const [fileHandle] = await window.showOpenFilePicker();
+    const file = await window.showOpenFilePicker();
+    // const filedata = await fileHandle.getPath();
+    console.log(file[0].name);
+    
+
 }
 
-// function loadComments() {
-//     commentSection.innerHTML = JSON.parse(localStorage.getItem('comments'));
-// }
+
+
 
